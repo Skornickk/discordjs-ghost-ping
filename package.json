@@ -11,6 +11,6 @@
 
   "author": "Kacper",
 
-  "dependencies": {'discord.js'}
+  "dependencies": {discord.js}
 
 }
