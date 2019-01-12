@@ -1,3 +1,16 @@
+
 {
-dependencies: 'discord.js'
+
+  "name": "gpbot",
+
+  "version": "1.0.0",
+
+  "description": "Create Ghost Pings In Seconds",
+
+  "main": "index.js",
+
+  "author": "Kacper",
+
+  "dependencies": {"discord.js"}
+
 }
