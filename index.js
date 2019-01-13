@@ -29,7 +29,10 @@ else if(message.member.roles.find("name","Pinger")){
     .catch(/*Your Error handling if the Message isn't returned, sent, etc.*/);
     }
   }else{
-    // not pinger
+    message.channel.send('dont try me')
+	  .then(msg => {
+	    msg.delete(1000)
+    })
   }
 
 });
